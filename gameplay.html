@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt:600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Raleway" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="gameplay.css">
+
+</head>
+
+<body background="adam-wilson-416248-unsplash.jpg">
+	
+
+	<h1 id= "gameTitle">GET THEM HOME!</h1>
+
+	<div class="parent1">
+		<img src="Giant_tornado.png" id= "runner1"></img>
+		
+		<img src="houseicon.png" id="finish1">
+	</div>
+
+	<div class="parent2">
+		<img src="Hurricane Kevin.png" id= "runner2"></img>
+
+		<img src="houseicon.png" id="finish2">
+	</div>
+
+
+	<button id= "button1" class= "btn-lg">HURRICANE ASHLEY</button>
+	
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+
+		    <div class="modal-header">
+
+		<!-- This is a close button and if user clicked outside the box, it will close the box -->
+		      <span class="close">&times;</span>
+
+		      <h2>Truth Or Dare</h2>
+
+		    </div>
+
+		    <div class="modal-body">
+		      <p id="questionContent">Choose Truth or Dare: </p>
+		    </div>
+
+		    <div class="modal-footer">
+		      	
+		      	<div class="truthDare">
+			      	<h3>First, choose:</h3><br><br>
+					<button class="btn-lg" id= "buttonTruth" onclick= "changeQuestionTruth1()">Truth</button><br><br>
+
+					<h3> Or </h3><br><br>
+
+					<button class="btn-lg" id= "buttonDare" onclick= "changeQuestionDare1()">Dare</button>
+				</div>
+
+				<div class="completion">
+					<h3>Did they answer or do it?</h3><br><br>
+					<button class="btn-lg" id= "runner1Completed">YEA!</button><br><br><br><br>
+
+					<button class="btn-lg" id= "runner1Failed">Nah, party pooper pooped</button>						
+				</div>
+			</div>
+		  </div>
+		</div>
+
+
+
+	<button id= "button2" class="btn-lg">HURRICANE KEVIN</button>
+
+			<!-- The Modal -->
+		<div id="myModal2" class="modal">
+
+		  <!-- Modal content -->
+		  	<div class="modal-content">
+
+		    <div class="modal-header">
+
+			<!-- This is a close button and if user clicked outside the box, it will close the box -->
+		      <span id= "close2" class="close">&times;</span>
+
+		      <h2>Truth Or Dare</h2>
+
+		    </div>
+
+		    <div class="modal-body">
+		      <p id="questionContent2">Choose Truth or Dare: </p>
+		    </div>
+
+		    <div class="modal-footer">
+		      	
+		      	<div class="truthDare">
+			      	<h3>First, choose:</h3><br><br>
+					<button class="btn-lg" id= "buttonTruth" onclick= "changeQuestionTruth()">Truth</button><br><br>
+
+					<h3> Or </h3><br><br>
+					
+					<button class="btn-lg" id= "buttonDare" onclick= "changeQuestionDare()">Dare</button>
+				</div>
+
+				<div class="completion">
+					<h3>Did they answer or do it?</h3><br><br>
+					<button class="btn-lg" id= "runner2Completed">YEA!</button><br><br><br><br>
+
+					<button class="btn-lg" id= "runner2Failed">Nah, party pooper pooped</button>						
+				</div>
+
+		    </div>
+		  </div>
+		</div>
+
+
+    <div id="myModal3" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">YouTube Video</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe id="ashleyVid" width="560" height="315" src="https://www.youtube.com/embed/xWQN5-Top6g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src= "gameplay.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+	background-size: 1450px 830px;
+	background-repeat: repeat;
+}
+
+.btn-lg{
+	font-family: 'Rokkitt', serif;
+	text-shadow: 2px 2px black;
+	color: #FFD700;
+	background-color: black;
+	border-width: 5px;
+	width: 300px;
+	height: 100px;
+}
+
+#instructionButton {
+	margin-left: 40%;
+	margin-top: 15%;
+}
+
+#charactersButton {
+	margin-left: 40%;
+}
+
+#playButton {
+	margin-left: 40%;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFD700;
+}
+
+/* visited link */
+a:visited {
+    color: #FFD700;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFD700;
+}
+
+/* selected link */
+a:active {
+    color: #FFD700;
+}

@@ -1,0 +1,232 @@
+
+body{
+	background-size: 1450px 830px;
+	background-repeat: repeat;
+}
+
+h2{
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
+    color: #FFD700;
+    font-size: 30px;
+}
+
+h3 {
+    display: inline;
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
+    color: #FFD700;
+}
+
+.parent1{
+    position: relative;
+}
+
+.parent2{
+    position: relative;
+}
+
+#finish1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 10px;
+}
+
+#finish2{
+    float: right;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 25px;
+    top: 10px;
+}
+
+#gameTitle{
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    color: #FFD700;
+    border-style: solid;
+    border-width: 5px;
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+}
+
+.btn-lg{
+    letter-spacing: 2px;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    background-color: black;
+    color: #FFD700;
+}
+
+#button1{
+    margin-top: 5%;
+    margin-left: 25%;
+    border-width: 5px;
+}
+
+#button2{
+    margin-top: 5%;
+    margin-left: 10%;
+    border-width: 5px;
+}
+
+#runner1{
+    margin-top: 50px;
+	margin-left: 0px;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+#runner2{
+    margin-top: 100px;
+	margin-left: 0px;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+/*The Modal*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #FFD700;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #FFD700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* modal construction */ 
+
+.modal-header {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+/* Modifying modal footer*/
+.modal-footer {
+    padding: 2px 16px;
+    background-color: black;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.truthDare{
+    text-align: left;
+    position: absolute;
+}
+
+.completion{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+    .bs-example{
+        margin: 20px;
+    }
+    .modal-content iframe{
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+body{
+    background-size: 1436px 830px;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-family: 'Rokkitt', serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    color: #FFD700;
+    border-style: solid;
+    border-width: 5px;
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+}
+
+button {
+  background: black;
+  border: solid;
+  border-radius: 5px;
+  color: #FFD700;
+  font-size: 24px;
+  width: 700px;
+  padding: 20px 0;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.characterStory1 {
+  font-family: 'Nunito', sans-serif;
+  background: #373232;
+  width: 700px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px
+}
+.characterStory1 span {
+  font-family: 'Nunito', sans-serif;
+  color: #FFD700;
+  display: block;
+  padding: 40px 20px;
+  text-indent: 50px;
+}
+
+.characterStory {
+  font-family: 'Nunito', sans-serif;
+  background: #373232;
+  width: 700px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px
+}
+.characterStory span {
+  font-family: 'Nunito', sans-serif;
+  color: #FFD700;
+  display: block;
+  padding: 40px 20px;
+  text-indent: 50px;
+
+}

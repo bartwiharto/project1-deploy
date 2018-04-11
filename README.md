@@ -1,1 +1,2 @@
-# project1-deploy
+A racing game that is also truth or dare with drinking game components.
+Players gain points by either answering truth or doing dare to gain points. If the players answer or do the dare, then they will gain full points and allowed to either sip or not drink their drinks. If the player refuse (or don't do it well) to do the dare or swerve around (answered with "not an answer") the truth, then they lose points and have to drink a full shot or take a big gulp of their beer. Judgement on "doing it well" and "swerved around an answer" would have to fall to other players and/or spectators. Player will move the racing piece by however many points they gain. The first player to reach the finish line wins the game.
